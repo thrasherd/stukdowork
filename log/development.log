@@ -1538,3 +1538,116 @@ Started GET "/assets/application.js?body=1" for 72.177.224.98 at 2015-04-23 03:3
 
 
 Started GET "/assets/fontawesome-webfont.woff2?v=4.3.0" for 72.177.224.98 at 2015-04-23 03:34:26 +0000
+
+
+Started GET "/users/sign_up" for 72.177.224.98 at 2015-04-23 03:42:03 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.html.erb (1.5ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (67.0ms)
+  Rendered layouts/_header.html.erb (1.5ms)
+Completed 200 OK in 385ms (Views: 370.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 72.177.224.98 at 2015-04-23 03:42:04 +0000
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.css?body=1" for 72.177.224.98 at 2015-04-23 03:42:04 +0000
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.css?body=1" for 72.177.224.98 at 2015-04-23 03:42:04 +0000
+
+
+Started GET "/assets/application.css?body=1" for 72.177.224.98 at 2015-04-23 03:42:04 +0000
+
+
+Started GET "/assets/font-awesome.css?body=1" for 72.177.224.98 at 2015-04-23 03:42:04 +0000
+
+
+Started GET "/assets/pages.css?body=1" for 72.177.224.98 at 2015-04-23 03:42:04 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 72.177.224.98 at 2015-04-23 03:42:04 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 72.177.224.98 at 2015-04-23 03:42:04 +0000
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 72.177.224.98 at 2015-04-23 03:42:04 +0000
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 72.177.224.98 at 2015-04-23 03:42:04 +0000
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 72.177.224.98 at 2015-04-23 03:42:04 +0000
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 72.177.224.98 at 2015-04-23 03:42:04 +0000
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 72.177.224.98 at 2015-04-23 03:42:04 +0000
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 72.177.224.98 at 2015-04-23 03:42:04 +0000
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 72.177.224.98 at 2015-04-23 03:42:04 +0000
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 72.177.224.98 at 2015-04-23 03:42:04 +0000
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 72.177.224.98 at 2015-04-23 03:42:04 +0000
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 72.177.224.98 at 2015-04-23 03:42:04 +0000
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 72.177.224.98 at 2015-04-23 03:42:04 +0000
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 72.177.224.98 at 2015-04-23 03:42:04 +0000
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 72.177.224.98 at 2015-04-23 03:42:04 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 72.177.224.98 at 2015-04-23 03:42:04 +0000
+
+
+Started GET "/assets/bootstrap.js?body=1" for 72.177.224.98 at 2015-04-23 03:42:04 +0000
+
+
+Started GET "/assets/pages.js?body=1" for 72.177.224.98 at 2015-04-23 03:42:05 +0000
+
+
+Started GET "/assets/application.js?body=1" for 72.177.224.98 at 2015-04-23 03:42:05 +0000
+
+
+Started GET "/" for 72.177.224.98 at 2015-04-23 03:42:06 +0000
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_header.html.erb (1.4ms)
+Completed 200 OK in 160ms (Views: 159.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 72.177.224.98 at 2015-04-23 03:42:09 +0000
+Processing by PagesController#about as HTML
+  Rendered pages/about.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+Completed 200 OK in 152ms (Views: 150.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 72.177.224.98 at 2015-04-23 03:42:09 +0000
+Processing by PagesController#about as HTML
+  Rendered pages/about.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+Completed 200 OK in 152ms (Views: 151.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 72.177.224.98 at 2015-04-23 03:42:10 +0000
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.7ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (14.8ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+Completed 200 OK in 179ms (Views: 176.1ms | ActiveRecord: 0.0ms)
