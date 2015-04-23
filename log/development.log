@@ -1125,3 +1125,70 @@ Started GET "/assets/twitter/bootstrap.js?body=1" for 72.177.224.98 at 2015-04-2
 
 
 Started GET "/assets/application.js?body=1" for 72.177.224.98 at 2015-04-23 03:19:17 +0000
+
+
+Started GET "/" for 72.177.224.98 at 2015-04-23 03:21:55 +0000
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 357ms (Views: 346.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/font-awesome.css?body=1" for 72.177.224.98 at 2015-04-23 03:21:56 +0000
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 72.177.224.98 at 2015-04-23 03:21:56 +0000
+
+
+Started GET "/assets/application.css?body=1" for 72.177.224.98 at 2015-04-23 03:21:56 +0000
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.css?body=1" for 72.177.224.98 at 2015-04-23 03:21:56 +0000
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 72.177.224.98 at 2015-04-23 03:21:56 +0000
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.css?body=1" for 72.177.224.98 at 2015-04-23 03:21:56 +0000
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 72.177.224.98 at 2015-04-23 03:21:56 +0000
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 72.177.224.98 at 2015-04-23 03:21:56 +0000
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 72.177.224.98 at 2015-04-23 03:21:56 +0000
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 72.177.224.98 at 2015-04-23 03:21:56 +0000
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 72.177.224.98 at 2015-04-23 03:21:56 +0000
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 72.177.224.98 at 2015-04-23 03:21:56 +0000
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 72.177.224.98 at 2015-04-23 03:21:56 +0000
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 72.177.224.98 at 2015-04-23 03:21:56 +0000
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 72.177.224.98 at 2015-04-23 03:21:56 +0000
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 72.177.224.98 at 2015-04-23 03:21:56 +0000
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 72.177.224.98 at 2015-04-23 03:21:57 +0000
+
+
+Started GET "/assets/bootstrap.js?body=1" for 72.177.224.98 at 2015-04-23 03:21:57 +0000
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 72.177.224.98 at 2015-04-23 03:21:57 +0000
+
+
+Started GET "/assets/application.js?body=1" for 72.177.224.98 at 2015-04-23 03:21:57 +0000
