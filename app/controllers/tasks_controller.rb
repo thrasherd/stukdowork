@@ -1,10 +1,9 @@
 class TasksController < ApplicationController
-  before_action :set_task, only: [:show, :edit, :update, :destroy]
+  before_action :set_task, only: [:show, :edit, :update, :destroy :change]
 
   respond_to :html
 
   def index
-    @tasks = current_user.tasks
     @to_do = current_user.tasks.where(state: "to_do")
     @doing = current_user.tasks.where(state: "doing")
     @done = current_user.tasks.where(state: "done")
@@ -38,6 +37,14 @@ class TasksController < ApplicationController
     @task.destroy
     respond_with(@task)
   end
+  
+  def change
+    @task.update_attributes(state: params[:state])
+    respond_to do |format|
+      format.html {redirect_to tasks_path, notice: "Task Update"}
+    end
+  end
+
 
   private
     def set_task
