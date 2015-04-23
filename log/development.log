@@ -1738,3 +1738,90 @@ Started GET "/assets/pages.js?body=1" for 72.177.224.98 at 2015-04-23 03:45:31 +
 
 
 Started GET "/assets/application.js?body=1" for 72.177.224.98 at 2015-04-23 03:45:31 +0000
+
+
+Started GET "/users/sign_in" for 72.177.224.98 at 2015-04-23 03:46:11 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (1.6ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (50.6ms)
+  Rendered layouts/_header.html.erb (1.4ms)
+Completed 200 OK in 375ms (Views: 349.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.css?body=1" for 72.177.224.98 at 2015-04-23 03:46:12 +0000
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.css?body=1" for 72.177.224.98 at 2015-04-23 03:46:12 +0000
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 72.177.224.98 at 2015-04-23 03:46:12 +0000
+
+
+Started GET "/assets/devise.css?body=1" for 72.177.224.98 at 2015-04-23 03:46:12 +0000
+
+
+Started GET "/assets/application.css?body=1" for 72.177.224.98 at 2015-04-23 03:46:12 +0000
+
+
+Started GET "/assets/pages.css?body=1" for 72.177.224.98 at 2015-04-23 03:46:12 +0000
+
+
+Started GET "/assets/font-awesome.css?body=1" for 72.177.224.98 at 2015-04-23 03:46:12 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 72.177.224.98 at 2015-04-23 03:46:12 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 72.177.224.98 at 2015-04-23 03:46:12 +0000
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 72.177.224.98 at 2015-04-23 03:46:12 +0000
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 72.177.224.98 at 2015-04-23 03:46:12 +0000
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 72.177.224.98 at 2015-04-23 03:46:12 +0000
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 72.177.224.98 at 2015-04-23 03:46:12 +0000
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 72.177.224.98 at 2015-04-23 03:46:12 +0000
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 72.177.224.98 at 2015-04-23 03:46:12 +0000
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 72.177.224.98 at 2015-04-23 03:46:12 +0000
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 72.177.224.98 at 2015-04-23 03:46:12 +0000
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 72.177.224.98 at 2015-04-23 03:46:12 +0000
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 72.177.224.98 at 2015-04-23 03:46:12 +0000
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 72.177.224.98 at 2015-04-23 03:46:12 +0000
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 72.177.224.98 at 2015-04-23 03:46:12 +0000
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 72.177.224.98 at 2015-04-23 03:46:12 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 72.177.224.98 at 2015-04-23 03:46:12 +0000
+
+
+Started GET "/assets/bootstrap.js?body=1" for 72.177.224.98 at 2015-04-23 03:46:12 +0000
+
+
+Started GET "/assets/pages.js?body=1" for 72.177.224.98 at 2015-04-23 03:46:12 +0000
+
+
+Started GET "/assets/application.js?body=1" for 72.177.224.98 at 2015-04-23 03:46:12 +0000
